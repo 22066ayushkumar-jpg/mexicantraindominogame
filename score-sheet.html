@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Printable Mexican Train Score Sheet (Print at Home)</title>
+<meta name="description" content="Print a free Mexican Train Dominoes score sheet: track up to four players across 13 rounds, with round engine numbers, pip totals and a winner row. Works for double-6 to double-15 sets.">
+<link rel="canonical" href="https://mexicantraindominogame.com/score-sheet.html">
+<meta property="og:title" content="Free Printable Mexican Train Score Sheet">
+<meta property="og:description" content="Print a free Mexican Train Dominoes score sheet for up to four players and 13 rounds.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mexicantraindominogame.com/score-sheet.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.article { max-width: 860px; margin: 0 auto; padding: 26px 20px 46px; }
+.article h1 { font-size: clamp(1.55rem, 4.5vw, 2.2rem); line-height: 1.22; margin: 8px 0 14px; }
+.article h2 { font-size: clamp(1.15rem, 3vw, 1.4rem); margin: 28px 0 10px; }
+.sheet { background: #fff; color: #111; border: 2px solid #111; border-radius: 10px; padding: 18px 18px 20px; margin: 18px 0; box-shadow: var(--shadow); }
+.sheet h2 { text-align: center; margin: 0 0 2px; color: #111; font-size: 1.3rem; }
+.sheet .sub { text-align: center; font-size: 0.8rem; color: #444; margin-bottom: 12px; }
+table.score { width: 100%; border-collapse: collapse; font-size: 0.85rem; color: #111; }
+table.score th, table.score td { border: 1px solid #333; padding: 6px 4px; text-align: center; height: 30px; }
+table.score th { background: #eef2f6; font-size: 0.78rem; }
+table.score td:first-child, table.score th:first-child { text-align: left; padding-left: 8px; white-space: nowrap; }
+table.score td.name { width: 15%; }
+.sum-row td { background: #f4f0e4; font-weight: 700; }
+.winner-row td { height: 40px; }
+.print-btn { display: inline-block; background: var(--good); color: #fff; text-decoration: none; font-weight: 700; padding: 11px 22px; border-radius: 10px; border: none; font-size: 1rem; cursor: pointer; }
+.note { font-size: 0.9rem; color: var(--ink-soft); }
+.play-cta { text-align: center; background: linear-gradient(150deg, var(--felt-1), var(--felt-2)); color: #fff; border-radius: 14px; padding: 22px 18px; margin: 30px 0 10px; }
+.play-cta a { display: inline-block; background: var(--good); color: #fff; text-decoration: none; font-weight: 700; padding: 12px 26px; border-radius: 11px; margin-top: 8px; font-size: 1.05rem; box-shadow: 0 3px 10px rgba(0,0,0,.3); }
+.crumbs { font-size: 0.84rem; color: var(--ink-soft); margin-bottom: 8px; }
+@media print {
+  .site-header, .site-footer, .no-print, .crumbs { display: none !important; }
+  body { background: #fff; }
+  .sheet { box-shadow: none; border-width: 1.5px; margin: 0; }
+  .article { padding: 0; max-width: none; }
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Mexican Train Dominoes","item":"https://mexicantraindominogame.com/"},{"@type":"ListItem","position":2,"name":"Printable Score Sheet","item":"https://mexicantraindominogame.com/score-sheet.html"}]}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/"><span class="brand-domino" aria-hidden="true"><i></i><i></i></span><span class="brand-name">Mexican&nbsp;Train&nbsp;Dominoes</span></a>
+  <nav class="header-actions" aria-label="Site">
+    <a class="icon-btn" href="/" style="text-decoration:none" aria-label="Play the game" title="Play the game">▶</a>
+  </nav>
+</header>
+<main class="article">
+  <p class="crumbs"><a href="/">Mexican Train Dominoes</a> › Score sheet</p>
+  <h1>Free Printable Mexican Train Score Sheet</h1>
+  <p>Playing Mexican Train Dominoes at the kitchen table? Use this free score sheet to track pips for up to four players across 13 rounds — one row per round, with the round's engine number pre-printed. Press <strong>Print</strong> (or Ctrl+P / ⌘P) and it formats perfectly on one page.</p>
+  <p class="no-print"><button class="print-btn" onclick="window.print()">🖨 Print this score sheet</button></p>
+
+  <div class="sheet" role="table" aria-label="Mexican Train score sheet">
+    <h2>Mexican Train Dominoes — Score Sheet</h2>
+    <p class="sub">Player names &amp; set: ____________________________ &nbsp;·&nbsp; Lowest total wins</p>
+    <table class="score">
+      <thead>
+        <tr><th>Round</th><th>Engine</th><th class="name">Player 1</th><th class="name">Player 2</th><th class="name">Player 3</th><th class="name">Player 4</th></tr>
+      </thead>
+      <tbody id="round-rows"></tbody>
+      <tfoot>
+        <tr class="sum-row"><td colspan="2">Totals</td><td></td><td></td><td></td><td></td></tr>
+        <tr class="winner-row"><td colspan="2">Winner (lowest total)</td><td colspan="4"></td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <h2>How to score Mexican Train Dominoes</h2>
+  <ul>
+    <li>When a round ends, each player adds up the <strong>pips (dots)</strong> on the dominoes left in their hand and writes the number in that round's row.</li>
+    <li>The player who played their last domino scores <strong>0</strong> that round. If everyone was blocked, the lowest pip count scores 0.</li>
+    <li>After the last round, total each column — the <strong>lowest total wins</strong>.</li>
+  </ul>
+  <p class="note">Tip: for the classic 3-round game just use the first three rows; the engine column is a suggestion — any round that starts with the highest double works. Need the rules? Read <a href="how-to-play.html">how to play Mexican Train Dominoes</a>, or <a href="/">play the free online game</a> and we'll keep score for you.</p>
+
+  <div class="play-cta no-print">
+    <strong>Prefer automatic scoring?</strong><br>
+    The online game scores every round for you — free, no download.
+    <br><a href="/">▶ Play Mexican Train Dominoes</a>
+  </div>
+</main>
+<footer class="site-footer">
+  <p><strong>Mexican Train Dominoes</strong> — <a href="/">Play online</a> · <a href="how-to-play.html">Rules</a> · <a href="strategy.html">Strategy</a> · <a href="variations.html">Variations</a> · <a href="score-sheet.html">Score sheet</a></p>
+</footer>
+<script>
+(function () {
+  var engines = [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+  var body = document.getElementById('round-rows');
+  for (var i = 0; i < engines.length; i++) {
+    var tr = document.createElement('tr');
+    var cells = ['Round ' + (i + 1), engines[i] + ' | ' + engines[i], '', '', '', ''];
+    cells.forEach(function (c, idx) {
+      var td = document.createElement(idx === 0 ? 'th' : 'td');
+      td.textContent = c;
+      tr.appendChild(td);
+    });
+    body.appendChild(tr);
+  }
+})();
+</script>
+</body>
+</html>

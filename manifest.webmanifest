@@ -1,0 +1,18 @@
+{
+  "name": "Mexican Train Dominoes — Play Free Online",
+  "short_name": "Mexican Train",
+  "description": "Play Mexican Train Dominoes online for free with official rules: computer opponents or pass-and-play, double-6 to double-15 sets, hints, undo and offline play.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#173B5C",
+  "theme_color": "#2B567F",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
