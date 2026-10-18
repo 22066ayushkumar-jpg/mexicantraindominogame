@@ -501,7 +501,7 @@ button { font: inherit; cursor: pointer; }
 .ref-list dd { margin: 0; }
 .site-footer { max-width: 1080px; margin: 0 auto; padding: 0 20px 46px; color: var(--ink-soft); font-size: 0.88rem; }
 .site-footer a { color: var(--accent); }
-.footnote { opacity: 0.75; }
+.footnote { color: var(--ink-soft); }
 
 /* ---------- responsive piece sizes ---------- */
 @media (min-width: 640px) {

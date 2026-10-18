@@ -57,7 +57,18 @@
       }
     }
   };
-  function buzz(ms) { try { if (navigator.vibrate) navigator.vibrate(ms); } catch (e) {} }
+  var buzzReady = false;
+  function armBuzz() {
+    if (buzzReady) return;
+    buzzReady = true;
+    window.removeEventListener('pointerdown', armBuzz);
+    window.removeEventListener('keydown', armBuzz);
+    window.removeEventListener('touchstart', armBuzz);
+  }
+  window.addEventListener('pointerdown', armBuzz);
+  window.addEventListener('keydown', armBuzz);
+  window.addEventListener('touchstart', armBuzz);
+  function buzz(ms) { if (!buzzReady) return; try { if (navigator.vibrate) navigator.vibrate(ms); } catch (e) {} }
   function tap() { buzz(10); } // light haptic tick for every HUD press
   var paused = false;
 
@@ -74,6 +85,7 @@
       });
     } else {
       var n = document.createElement('b'); n.className = 'num'; n.textContent = v;
+      n.setAttribute('aria-hidden', 'true'); // digits are decorative; the tile's aria-label names it
       d.appendChild(n);
     }
     return d;
@@ -378,7 +390,7 @@
       if (t.id === selectedTileId) classes.push('selected');
       var d = dominoEl(t.a, t.b, {
         big: true, button: true, extraClass: classes.join(' '),
-        label: 'Domino ' + t.a + ' by ' + t.b + (playable ? ' — playable' : '')
+        label: 'Domino ' + t.a + ' ' + t.b + (playable ? ' — playable' : '')
       });
       d.dataset.tileId = String(t.id);
       d.addEventListener('click', onTileTap);

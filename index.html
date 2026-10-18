@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Mexican Train Dominoes - Play Free Online with Official Rules</title>
-<meta name="description" content="Shuffle the boneyard and build your train: play free Mexican Train Dominoes in your browser against smart computer players or friends. Official rules, three difficulty levels, and offline play with no download.">
+<meta name="description" content="Play free Mexican Train Dominoes in your browser: smart computer players, pass-and-play, official rules, three difficulty levels, offline play. No download needed.">
 <link rel="canonical" href="https://mexicantraindominogame.com/">
 <meta name="theme-color" content="#173B5C" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#2B567F" media="(prefers-color-scheme: light)">
@@ -18,7 +18,7 @@
 <meta property="og:title" content="Mexican Train Dominoes - Play Free Online with Official Rules">
 <meta property="og:site_name" content="Mexican Train Dominoes">
 <meta property="og:url" content="https://mexicantraindominogame.com/">
-<meta property="og:description" content="Shuffle the boneyard and build your train: play free Mexican Train Dominoes in your browser against smart computer players or friends. Official rules and offline play with no download.">
+<meta property="og:description" content="Play free Mexican Train Dominoes in your browser: computer players, pass-and-play, official rules, offline play. No download needed.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://mexicantraindominogame.com/img/mexican-train-dominoes-1280x630.png">
 <meta property="og:image:width" content="1280">
@@ -42,7 +42,7 @@
 </script>
 <!-- Game application -->
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"VideoGame","name":"Mexican Train Dominoes","alternateName":["Mexican Train","Mexican Train Game","Train Dominoes"],"description":"The classic tile-laying game rebuilt for the browser: race to empty your hand against smart computer rivals, or pass one screen around the table with up to four players. Double-6 through double-15 sets, official engine rules, offline play.","url":"https://mexicantraindominogame.com/","image":"https://mexicantraindominogame.com/img/mexican-train-dominoes-1280x630.png","genre":["Domino game","Board game","Tile-laying game","Browser game"],"gamePlatform":["Web browser","Mobile web browser"],"applicationCategory":"Game","operatingSystem":"Any (web browser)","playMode":["SinglePlayer","MultiPlayer"],"inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["Free browser game with nothing to install, works offline","Solo vs computer rivals or pass-and-play for 2-4 players","Three AI levels: easy, medium, hard","Double-6, double-9, double-12 and double-15 domino sets","Undo, hints, tile sorting, sound toggle, and instant pip scoring","Auto-save: close the tab and resume later","Installs to your home screen as a web app","Built phone-first to fit one screen on any device"],"author":{"@type":"Organization","name":"Mexican Train Dominoes"}}
+{"@context":"https://schema.org","@type":"VideoGame","name":"Mexican Train Dominoes","alternateName":["Mexican Train","Mexican Train Game","Train Dominoes"],"description":"The classic tile-laying game rebuilt for the browser: race to empty your hand against smart computer rivals, or pass one screen around the table with up to four players. Double-6 through double-15 sets, official engine rules, offline play.","url":"https://mexicantraindominogame.com/","image":"https://mexicantraindominogame.com/img/mexican-train-dominoes-1280x630.png","genre":["Domino game","Board game","Tile-laying game","Browser game"],"gamePlatform":["Web browser","Mobile web browser"],"applicationCategory":"Game","operatingSystem":"Any (web browser)","playMode":["SinglePlayer","MultiPlayer"],"keywords":["Mexican Train","Mexican Train Dominoes","Mexican Train game","play Mexican Train online","Mexican Train Dominoes online","dominoes game","browser domino game"],"browserRequirements":"Requires JavaScript. Runs in any modern desktop or mobile web browser.","screenshot":"https://mexicantraindominogame.com/img/mexican-train-dominoes-1280x630.png","inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["Free browser game with nothing to install, works offline","Solo vs computer rivals or pass-and-play for 2-4 players","Three AI levels: easy, medium, hard","Double-6, double-9, double-12 and double-15 domino sets","Undo, hints, tile sorting, sound toggle, and instant pip scoring","Auto-save: close the tab and resume later","Installs to your home screen as a web app","Built phone-first to fit one screen on any device"],"author":{"@type":"Organization","name":"Mexican Train Dominoes"}}
 </script>
 <!-- FAQ (mirrors the on-page FAQ section) -->
 <script type="application/ld+json">
@@ -101,7 +101,7 @@
           <span class="hub-label">Engine</span>
           <div class="hub-tile" id="engine-tile"></div>
         </div>
-        <button id="boneyard" class="boneyard" aria-label="Boneyard — draw a domino" title="Boneyard: draw when you have no play">
+        <button id="boneyard" class="boneyard" title="Boneyard: draw when you have no play">
           <span class="by-stack" aria-hidden="true"><i></i><i></i><i></i></span>
           <span class="by-info"><b id="boneyard-count">–</b><small>Boneyard</small></span>
         </button>
@@ -123,7 +123,7 @@
         <button id="btn-draw" class="primary-btn" hidden>Draw from boneyard</button>
         <button id="btn-pass" class="primary-btn warn" hidden>Pass (open your train)</button>
       </div>
-      <div id="hand" class="hand" role="listbox" aria-label="Your dominoes — tap one to select it"></div>
+      <div id="hand" class="hand" role="group" aria-label="Your dominoes — tap one to select it"></div>
       <div id="hint-bar" class="hint-bar" aria-live="polite"></div>
     </div>
 
