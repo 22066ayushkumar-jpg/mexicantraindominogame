@@ -11,6 +11,12 @@ The classic domino game in the browser: build your personal train and the shared
 - [Mexican Train strategy](https://mexicantraindominogame.com/strategy.html): opening moves, when to play doubles, train management, and tips to win.
 - [Mexican Train variations](https://mexicantraindominogame.com/variations.html): two-player rules, Chickenfoot vs Mexican Train, other domino sets and house rules.
 - [Printable Mexican Train score sheet](https://mexicantraindominogame.com/score-sheet.html): free printable score sheet for table play.
+- [About us](https://mexicantraindominogame.com/about.html): who runs this site, why it exists, and what we promise players.
+- [Contact us](https://mexicantraindominogame.com/contact.html): email us with bugs, feature ideas, or rules questions.
+- [Privacy policy](https://mexicantraindominogame.com/privacy-policy.html): no accounts, no ad tracking; game saves stay on your device.
+- [Cookie policy](https://mexicantraindominogame.com/cookies.html): no cookies set at all — localStorage only, explained in full.
+- [Disclaimer](https://mexicantraindominogame.com/disclaimer.html): provided as-is for entertainment; unaffiliated with any manufacturer.
+- [XML sitemap](https://mexicantraindominogame.com/sitemap.xml): full URL list for crawlers.
 
 ## Game facts
 
