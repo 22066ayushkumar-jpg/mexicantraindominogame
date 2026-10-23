@@ -7,7 +7,7 @@ The classic domino game in the browser: build your personal train and the shared
 ## Pages
 
 - [Play Mexican Train Dominoes online (game)](https://mexicantraindominogame.com/): the free game plus quick rules and FAQs.
-- [How to play Mexican Train Dominoes](https://mexicantraindominogame.com/how-to-play.html): complete official rules — setup, the engine, turns, drawing, open trains, doubles, scoring, and set sizes (double-6, double-9, double-12, double-15).
+- [How to play Mexican Train Dominoes](https://mexicantraindominogame.com/how-to-play-mexican-train-dominoes.html): complete official rules — setup, the engine, turns, drawing, open trains, doubles, scoring, and set sizes (double-6, double-9, double-12, double-15).
 - [Mexican Train strategy](https://mexicantraindominogame.com/strategy.html): opening moves, when to play doubles, train management, and tips to win.
 - [Mexican Train variations](https://mexicantraindominogame.com/variations.html): two-player rules, Chickenfoot vs Mexican Train, other domino sets and house rules.
 - [Printable Mexican Train score sheet](https://mexicantraindominogame.com/score-sheet.html): free printable score sheet for table play.
