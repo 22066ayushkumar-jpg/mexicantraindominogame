@@ -1,13 +1,14 @@
 # Mexican Train Dominoes
 
-> Play Mexican Train Dominoes online for free — official rules, smart computer opponents, pass-and-play for 2-4 players, double-6 to double-15 domino sets, hints, undo, offline play. No download, no sign-up, mobile friendly.
+> Play Mexican Train online free — classic rules, smart computer opponents, pass-and-play for 2-4 players, double-6 to double-15 domino sets, hints, undo, offline play on desktop, tablet and phone. No download, no sign-up, no account.
 
 The classic domino game in the browser: build your personal train and the shared Mexican Train from the engine double, cover every double, run out of tiles first, and score the fewest pips to win.
 
 ## Pages
 
 - [Play Mexican Train Dominoes online (game)](https://mexicantraindominogame.com/): the free game plus quick rules and FAQs.
-- [How to play Mexican Train Dominoes](https://mexicantraindominogame.com/how-to-play-mexican-train-dominoes.html): complete official rules — setup, the engine, turns, drawing, open trains, doubles, scoring, and set sizes (double-6, double-9, double-12, double-15).
+- [How to play Mexican Train Dominoes](https://mexicantraindominogame.com/how-to-play-mexican-train-dominoes.html): complete classic rules — setup, the engine, turns, drawing, open trains, doubles, scoring, and set sizes (double-6, double-9, double-12, double-15).
+- [Mexican Train dominoes 5 players](https://mexicantraindominogame.com/mexican-train-dominoes-5-players.html): five-player table rules — 12 tiles each, setup, doubles, open trains, scoring, a worked turn example, and variations.
 - [Mexican Train strategy](https://mexicantraindominogame.com/strategy.html): opening moves, when to play doubles, train management, and tips to win.
 - [Mexican Train variations](https://mexicantraindominogame.com/variations.html): two-player rules, Chickenfoot vs Mexican Train, other domino sets and house rules.
 - [Printable Mexican Train score sheet](https://mexicantraindominogame.com/score-sheet.html): free printable score sheet for table play.
@@ -24,8 +25,10 @@ The classic domino game in the browser: build your personal train and the shared
 
 - Players: 2-4 (vs computer or pass-and-play on one device)
 - Classic set: double-12 (91 dominoes); double-6, double-9 and double-15 also supported
+- Starting tiles with 2-4 players: 7 (double-6), 10 (double-9), 13 (double-12), 15 (double-15)
 - Round start: the highest double held becomes the engine in the hub
 - Goal: play all your tiles; everyone else scores pips left in hand; lowest total after all rounds wins
 - Platform: any modern browser (phone, tablet, desktop); installable web app; works offline
+- Cost and access: free; no download, no sign-up, no account, no email
 
 This site is a free browser game. Content is factual game documentation; link freely.

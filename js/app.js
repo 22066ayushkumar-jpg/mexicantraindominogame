@@ -1082,7 +1082,7 @@
     var dlg = document.createElement('div');
     dlg.className = 'dialog';
     dlg.setAttribute('role', 'dialog'); dlg.setAttribute('aria-modal', 'true');
-    var h = document.createElement('h2'); h.textContent = 'Welcome back!';
+    var h = document.createElement('p'); h.className = 'dialog-title'; h.textContent = 'Welcome back!';
     var p = document.createElement('p');
     p.textContent = 'Resume your game? Round ' + state.round + ' of ' + state.cfg.rounds + ' — ' +
       state.players.map(function (pl) { return pl.name + ' ' + pl.score; }).join(', ') + ' pts.';
