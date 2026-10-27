@@ -11,7 +11,7 @@ The classic domino game in the browser: build your personal train and the shared
 - [Mexican Train dominoes 5 players](https://mexicantraindominogame.com/mexican-train-dominoes-5-players.html): five-player table rules — 12 tiles each, setup, doubles, open trains, scoring, a worked turn example, and variations.
 - [Mexican Train strategy](https://mexicantraindominogame.com/strategy.html): opening moves, when to play doubles, train management, and tips to win.
 - [Mexican Train variations](https://mexicantraindominogame.com/variations.html): two-player rules, Chickenfoot vs Mexican Train, other domino sets and house rules.
-- [Printable Mexican Train score sheet](https://mexicantraindominogame.com/score-sheet.html): free printable score sheet for table play.
+- [Printable Mexican Train score sheet](https://mexicantraindominogame.com/mexican-train-score-sheets.html): free printable score sheet for table play.
 - [Dominoes vs Mexican Train](https://mexicantraindominogame.com/dominoes-vs-mexican-train.html): side-by-side comparison of classic dominoes and Mexican Train — players, tiles, layout, scoring, rules, and which game fits your group.
 - [Chicken Foot vs Mexican Train](https://mexicantraindominogame.com/chicken-foot-vs-mexican-train.html): rules, scoring, and key differences between Chicken Foot and Mexican Train dominoes — which game is easier, how to score points, and how to win family game night.
 - [Who goes first in Mexican Train Dominoes](https://mexicantraindominogame.com/who-goes-first-mexican-train-dominoes.html): engine holder leads each round — what to do if you cannot match the engine, if nobody drew it, and how the starting double counts down from 12-12 to 0-0.
