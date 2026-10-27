@@ -14,12 +14,14 @@ The classic domino game in the browser: build your personal train and the shared
 - [Printable Mexican Train score sheet](https://mexicantraindominogame.com/score-sheet.html): free printable score sheet for table play.
 - [Dominoes vs Mexican Train](https://mexicantraindominogame.com/dominoes-vs-mexican-train.html): side-by-side comparison of classic dominoes and Mexican Train — players, tiles, layout, scoring, rules, and which game fits your group.
 - [Chicken Foot vs Mexican Train](https://mexicantraindominogame.com/chicken-foot-vs-mexican-train.html): rules, scoring, and key differences between Chicken Foot and Mexican Train dominoes — which game is easier, how to score points, and how to win family game night.
+- [Who goes first in Mexican Train Dominoes](https://mexicantraindominogame.com/who-goes-first-mexican-train-dominoes.html): engine holder leads each round — what to do if you cannot match the engine, if nobody drew it, and how the starting double counts down from 12-12 to 0-0.
 - [About us](https://mexicantraindominogame.com/about.html): who runs this site, why it exists, and what we promise players.
 - [Contact us](https://mexicantraindominogame.com/contact.html): email us with bugs, feature ideas, or rules questions.
 - [Privacy policy](https://mexicantraindominogame.com/privacy-policy.html): no accounts, no ad tracking; game saves stay on your device.
 - [Cookie policy](https://mexicantraindominogame.com/cookies.html): no cookies set at all — localStorage only, explained in full.
 - [Disclaimer](https://mexicantraindominogame.com/disclaimer.html): provided as-is for entertainment; unaffiliated with any manufacturer.
 - [XML sitemap](https://mexicantraindominogame.com/sitemap.xml): full URL list for crawlers.
+- [HTML sitemap](https://mexicantraindominogame.com/sitemap.html): every page on the site, grouped by topic.
 
 ## Game facts
 
